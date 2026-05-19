@@ -3,4 +3,4 @@ services:
     name: api-plutos-tattoo-v2
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn api.plutos01:app
+    startCommand: gunicorn api.plutos02:app
