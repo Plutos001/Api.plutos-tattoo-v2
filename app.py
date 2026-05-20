@@ -5,7 +5,6 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return "API PLUTOS TATTOO V2 ONLINE 💎⚙️"
-from flask import request, jsonify
 
 @app.route('/orcamento', methods=['POST'])
 def orcamento():
